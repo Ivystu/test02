@@ -1,0 +1,17 @@
+:root {
+    /*blue*/
+    --main-blue-color: hsl(197, 33%, 28%);
+    --main-blue-light-color: hsl(197, 33%, 70%);
+    --main-blue-dark-color: hsl(197, 33%, 10%);
+    /*orange*/
+    --main-orange-color: hsl(35, 90%, 53%);
+    --main-orange-light-color: hsl(35, 90%, 80%);
+    --main-orange-dark-color: hsl(35, 90%, 10%);
+    /*neutral 中性色*/
+    --neutral-color: hsl(346, 9%, 53%);
+    --neutral-light-color: hsl(346, 9%, 90%);
+    --neutral-dark-color: hsl(346, 9%, 27%);
+
+    /* box-shadow 內一般常見到是有四種屬性值可設定，分別是 「X軸寬度」、「Y軸寬度」、「柔焦程度」、「陰影顏色」 */
+    --box-shadow: 4px 4px 5px var(--neutral-color);
+}

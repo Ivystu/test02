@@ -1,0 +1,77 @@
+.body {
+    background-color: var(--main-orange-light-color);
+    width: auto;
+    height: auto;
+}
+
+.content {
+    margin-top: 5%;
+}
+
+.index_logo {
+    width: 20%;
+    height: auto;
+    display:block;
+    margin:auto;
+}
+
+.index_logo_word {
+    width: 35%;
+    height: auto;
+    display:block;
+    margin:auto;
+    margin-top: 20px;
+}
+
+.introduce {
+    font-size: 24px;
+    text-align: center;
+}
+
+/*--------------------------*/
+/*          button          */
+/*--------------------------*/
+
+.btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.btn_center {
+    float: left;
+    padding: 10px 20px;
+    background-color: hsl(0, 0%, 100%, 30%);
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 50px;
+    font-size: 30px;
+    color: var(--neutral-dark-color);
+    border:2px var(--neutral-dark-color) solid;
+    /* 要陰影的話 box-shadow: var(--box-shadow); */
+}
+
+.btn_common {
+    float: left;
+    margin-left: 20px;
+    padding: 10px 20px;
+    background-color: hsl(0, 0%, 100%, 30%);
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 50px;
+    font-size: 30px;
+    color: var(--neutral-dark-color);
+    border:2px var(--neutral-dark-color) solid;
+}
+
+.btn_center:hover, .btn_common:hover {
+    float: left;
+    padding: 10px 20px;
+    background-color: var(--neutral-dark-color);
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 50px;
+    font-size: 30px;
+    color: white;
+    border:2px var(--neutral-dark-color) solid;
+}
